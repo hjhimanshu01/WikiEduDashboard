@@ -172,7 +172,7 @@ const ArticleFinder = createReactClass({
       const Suggestions = (props) => {
         const options = props.results.data.query.search.map(r => (
           <input
-            className=" search-suggestions"
+            className="search-suggestions"
             key={r.pageid}
             label={r.title}
             value={r.title}
